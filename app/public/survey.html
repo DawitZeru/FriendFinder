@@ -1,0 +1,245 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FriendFinder</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awesome Glyphicons -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+<body>
+        <div class="container">
+                <div class="jumbotron">
+                    <div class="Mntitle"><h1>Meet your Future</h1></div>
+                    <hr/>
+                    <h2 class="Mntitle">Answer a few questions?</h2>
+                    <h2 class="Mntitle">
+                     Find the one with the greatest compatibility!
+                    </h2>
+                    </div>
+                    <h2>Survey Questions</h2>
+                    <hr/>
+                    <h3><strong>About You</strong></h3>
+                    <h4>Name (Required)</h4>
+                    <input type="text" name="" id="name" class="form-control" required />
+                    <h4>Link to Photo Images (Required)</h4>
+                    <input type="text" name="" id="name" class="form-control" required />
+                    <hr/>
+                    <h3><strong>Question 1</strong></h3>
+                    <h4>I like the feeling of adrenaline.</h4>
+                    <select data-placeholder="" class="chosen-select" id="q1">
+                        <option value="">Select an option</option>
+                        <option value="1">1 (It's an addiction)></option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5" selected>5 (I highly Disagree.)</option>
+                    </select>
+                    <h3><strong>Question 2</h3>
+                    <h4>Sundays are for the NFL</h4>
+                    <select data-placeholder="" class="chosen-select" id="q2"></select>
+                    <option value="">Select an option</option>
+                        <option value="1">1 (I prefer basketball.)></option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5" selected>5 (I prefer the real football)</option>
+                    </select>
+                    <h3 class="barrio">Question 3</h3>
+                    <h4><strong>I dress up for Halloween<strong></h4>
+                    <select data-placeholder="" class="chosen-select" id="q3"></select>
+                    <option value="">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                    <h3 class="barrio">Question 4</h3>
+                    <h4><strong>I'm a coffee lover<strong></h4>
+                    <select data-placeholder="" class="chosen-select" id="q4"></select>
+                    <option value="">Select an option</option>
+                    <option value="1">1 (Gas station coffee is fine by me.)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (I'm friends with my Barista)</option>
+                    </select>
+                    <h3 class="barrio">Question 5</h3>
+                    <h4><strong>I'm into tofu and vegeterian dishes<strong></h4>
+                    <select data-placeholder="" class="chosen-select" id="q5"></select>
+                    <option value="">Select an option</option>
+                    <option value="1">1 (Give me my steak bloody)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (Yes and I like salmon.)</option>
+                    </select>
+                    <h3 class="barrio">Question 6</h3>
+                    <h4><strong>Fantasy Sports are Awesome<strong></h4>
+                    <select data-placeholder="" class="chosen-select" id="q6"></select>
+                    <option value="">Select an option</option>
+                    <option value="1">1 (Too much of wasted time)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (In about 5 leagues year around)</option>
+                    </select>
+                    <h3 class="barrio">Question 7</h3>
+                    <h4><strong>How often do you go out to eat<strong></h4>
+                    <select data-placeholder="" class="chosen-select" id="q7"></select>
+                    <option value="">Select an option</option>
+                    <option value="1">1 (once a month)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (Im out eating everyday)</option>
+                    </select>
+                    <h3 class="barrio">Question 8</h3>
+                    <h4><strong>what is your favorite holiday<strong></h4>
+                    <select data-placeholder="" class="chosen-select" id="q8"></select>
+                    <option value="">Select an option</option>
+                    <option value="1">1 (i dont have one)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (Easter is my faviorite)</option>
+                    </select>
+                    <h3 class="barrio">Question 5</h3>
+                    <h4><strong>What is your faviorite way of traveling<strong></h4>
+                    <select data-placeholder="" class="chosen-select" id="q9"></select>
+                    <option value="">Select an option</option>
+                    <option value="1">1 (I dont like to travel)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (i like to travel in any way)</option>
+                    </select>
+                    <h3 class="barrio">Question 10</h3>
+                    <h4><strong>I like to travel a lot<strong></h4>
+                    <select data-placeholder="" class="chosen-select" id="q10"></select>
+                    <option value="">Select an option</option>
+                    <option value="1">1 (I am a home body)</option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 (my favorite place is Africa)</option>
+                    </select>
+                    <br />
+                    <br />
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-lg btn-block"
+                      id="submit"
+                    >
+                      <i class="fa fa-check-circle" aria-hidden="true"></i> Submit
+                    </button>
+                    <br />
+                    <br />
+              
+                    <footer class="footer text-center">
+                      <div class="container">
+                        <p>
+                          <a href="#">About Dawit</a> |
+                          <a href="https://github.com/DawitZeru/FriendFinder">GitHub Repo</a>
+                          <br />
+                        </p>
+                      </div>
+                    </footer>
+                  </div>
+                  <div id="resultsModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">
+                            &times;
+                          </button>
+                          <h2 class="modal-title"><strong>Best Match</strong></h2>
+                        </div>
+              
+                        <div class="modal-body">
+                          <h2 id="matchName"></h2>
+                          <img
+                            id="matchImg"
+                            src="https://via.placeholder.com/400x400"
+                            alt="Placeholder image in case user pic doesn't show"
+                          />
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <script type="text/javascript">
+                    $("#submit").on("click", function() {
+                      function validateForm() {
+                        var isValid = true;
+                        $(".form-control").each(function() {
+                          if ($(this).val() === "") isValid = false;
+                        });
+                        $(".chosen-select").each(function() {
+                          if ($(this).val() === "") isValid = false;
+                        });
+                        return isValid;
+                      }
+                      if (validateForm() == true) {
+                        var userData = {
+                          name: $("#name").val(),
+                          photo: $("#photo").val(),
+                          scores: [
+                            $("#q1").val(),
+                            $("#q2").val(),
+                            $("#q3").val(),
+                            $("#q4").val(),
+                            $("#q5").val(),
+                            $("#q6").val(),
+                            $("#q7").val(),
+                            $("#q8").val(),
+                            $("#q9").val(),
+                            $("#q10").val()
+                          ]
+                        };
+                        var currentURL = window.location.origin;
+                        $.post(currentURL + "/api/friends", userData, function(data) {
+                          $("#matchName").text(data.name);
+                          $("#matchImg").attr("src", data.photo);
+                          $("#resultsModal").modal("toggle");
+                        });
+                      } else {
+                        alert("Please fill out all fields before submitting!");
+                      }
+                      return false;
+                    });
+                  </script>
+                </body>
+              </html>
+                    </div>
+                    </div>
+</body>
+</html>
