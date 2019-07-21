@@ -1,0 +1,17 @@
+html, body {
+    background-color: green;
+}
+
+.container {
+    background-color: rgb(231, 169, 11);
+}
+
+.jumbotron {
+
+    background-color: red;
+}
+
+h2, h3, h4 {
+
+background-color: aquamarine;
+}
